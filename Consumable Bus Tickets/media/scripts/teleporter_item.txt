@@ -1,0 +1,18 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+
+	item BusTicket
+	{
+	    DisplayCategory = Communications,
+		Weight	=	0.1,
+		Type	=	Normal,
+		DisplayName	=	Bus Ticket,
+		Icon	=	busticket,
+		WorldStaticModel = WalkieTalkiePremium,
+	}
+}
