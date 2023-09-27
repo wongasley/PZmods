@@ -1,0 +1,53 @@
+   module Base
+{
+   
+	
+
+		model Magazine_SVD
+	{
+		mesh = Weapons/ammo/Magazine_SVD,
+		texture = Weapons/firearm/svd_texture,
+	}
+
+		model Magazine_249
+	{
+		mesh = Weapons/ammo/Magazine_249,
+		texture = Weapons/firearm/m249_texture,
+	}
+
+		model Magazine_PKM
+	{
+		mesh = Weapons/ammo/Magazine_PKM,
+		texture = Weapons/firearm/pkm_texture,
+	}
+		model Magazine_UMP
+	{
+		mesh = Weapons/ammo/Magazine_UMP,
+		texture = Weapons/firearm/ump_texture,
+	}
+
+		model Magazine_SV98
+	{
+		mesh = Weapons/ammo/Magazine_SV98,
+		texture = Weapons/firearm/sv98_texture,
+	}
+
+		model Magazine_Vityaz
+	{
+		mesh = Weapons/ammo/Magazine_Vityaz,
+		texture = Weapons/firearm/vityaz_texture,
+	}
+	
+	model Magazine_PPSH
+	{
+		mesh = Weapons/ammo/Drum_PPSH,
+		texture = Weapons/firearm/PPSH_texture,
+	}
+	
+	model Magazine_Bizon
+	{
+		mesh = Weapons/ammo/Magazine_Bizon,
+		texture = Weapons/firearm/vityaz_texture,
+	}
+}
+

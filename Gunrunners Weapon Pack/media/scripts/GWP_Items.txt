@@ -1,0 +1,151 @@
+module GWP{
+
+      imports{
+          Base
+      }
+
+	item 45Clip30
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	M1A1 Magazine,
+        Icon	=	M1A1Mag,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_45,
+        GunType = GWP.ThompsonM1A1,
+        WorldStaticModel = Magazine_45,
+    }
+	
+	item 45Clip30Mac10
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Mac-10 Magazine,
+        Icon	=	M1A1Mag,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_45,
+        GunType = GWP.Mac10SD,
+        WorldStaticModel = Magazine_45,
+    }
+	
+    item HK308Mag
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	H&K .308 Magazine,
+        Icon	=	M14Clip,
+        MaxAmmo = 20,
+        AmmoType = Base.308Bullets,
+        StaticModel = Magazine_M14,
+        GunType = GWP.PSG1,
+        WorldStaticModel = Magazine_M14,
+    }
+    
+     item Mini30Mag
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Mini-30 Magazine,
+        Icon	=	M14Clip,
+        MaxAmmo = 20,
+        AmmoType = Base.762Bullets,
+        StaticModel = Magazine_M14,
+        GunType = GWP.Mini30,
+        WorldStaticModel = Magazine_M14,
+    }
+    
+	item 22MarkIIMag
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Ruger Mark II Magazine,
+        Icon	=	p229clip,
+        MaxAmmo = 10,
+        AmmoType = Base.22Bullets,
+        StaticModel = Magazine_glock,
+        GunType = GWP.RugerMarkII,
+        WorldStaticModel = Magazine_glock,
+    }
+    
+   item 357Box
+    {
+        Weight	=	0.84,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	Box of .357 Magnum Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	357AmmoBox,
+        MetalValue = 40,
+        WorldStaticModel = 357AmmoBox,
+    }
+
+    item 357Bullets
+    {
+        Count	=	5,
+        Weight	=	0.020,
+        AlwaysWelcomeGift	=	TRUE,
+        Type	=	Normal,
+        DisplayName	=	.357 Magnum Rounds,
+        DisplayCategory = Ammo,
+        Icon	=	44Bullets,
+        MetalValue = 1,
+        WorldStaticModel = Bullets44,
+    }
+    
+    item M60Mag
+    {
+        CanStack	=	FALSE,
+        Weight	=	2,
+        Type	=	Normal,
+        DisplayName	=	M60 Belt Magazine,
+        Icon	=	M60Mag,
+        MaxAmmo = 100,
+        AmmoType = Base.308Bullets,
+        StaticModel = M60Mag,
+        GunType = GWP.M60,
+        WorldStaticModel = M60Mag,
+    }   
+    
+       item Uzi9mmMag
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Uzi Magazine,
+        Icon	=	M1A1Mag,
+        MaxAmmo = 30,
+        AmmoType = Base.Bullets9mm,
+        StaticModel = GunMagazine,
+        GunType = GWP.MiniUzi,
+        WorldStaticModel = Gun_Magazine_Ground,
+    }
+    
+ 	item Glock21Mag
+    {
+        CanStack	=	FALSE,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	= Glock 21 Magazine,
+        Icon	=	p229clip,
+        MaxAmmo = 13,
+        AmmoType = Base.Bullets45,
+        StaticModel = Magazine_glock,
+        GunType = GWP.Glock21,
+        WorldStaticModel = Magazine_glock,
+    }
+	
+}
+
+
+
+
+	
+
+

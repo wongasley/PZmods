@@ -1,0 +1,64 @@
+module GWP{
+
+      imports{
+          Base
+      }
+
+    recipe Switch Colt Python to .38 Special Ammo
+    {
+      ColtPython357,
+
+      Result:ColtPython38,
+      Time:1,
+      OnTest:CheckForAmmo_OnTest,
+      OnCreate:Switch357AmmoPartsCheck_OnCreate,
+    }
+    
+    recipe Switch Colt Python to .357 Magnum Ammo
+    {
+      ColtPython38,
+
+      Result:ColtPython357,
+      Time:1,
+      OnTest:CheckForAmmo_OnTest,
+      OnCreate:Switch357AmmoPartsCheck_OnCreate,
+    }
+    
+    recipe Open Box of .357 Magnum Ammo
+    {
+        357Box,
+
+        Result:357Bullets=10,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+   
+    recipe Place .357 Ammo in Box
+    {
+        357Bullets=50,
+
+        Result:357Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+    recipe Switch Marlin 1894 Custom to .38 Special Ammo
+    {
+      Marlin1894Custom357,
+
+      Result:Marlin1894Custom38,
+      Time:1,
+      OnTest:CheckForAmmo_OnTest,
+      OnCreate:Switch357AmmoPartsCheck_OnCreate,
+    }
+    
+    recipe Switch Marlin 1894 Custom to .357 Magnum Ammo
+    {
+      Marlin1894Custom38,
+
+      Result:Marlin1894Custom357,
+      Time:1,
+      OnTest:CheckForAmmo_OnTest,
+      OnCreate:Switch357AmmoPartsCheck_OnCreate,
+    }    
+}
