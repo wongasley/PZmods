@@ -1,6 +1,0 @@
-Items_DE = {
-	
-	DisplayName_Reinforced_Baseball_Bat = "Verstärkter Baseballschläger",
-	DisplayName_Viking_Axe = "Wikingeraxt",
-	
-}
