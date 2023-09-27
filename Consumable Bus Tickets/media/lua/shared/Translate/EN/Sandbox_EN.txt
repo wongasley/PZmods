@@ -1,0 +1,19 @@
+Sandbox_EN = {
+    Sandbox_Teleporter = "Teleporter",
+
+    Sandbox_Teleporter_TeleportLocation1Name = "Location 1 Display Name",
+    Sandbox_Teleporter_TeleportLocation1 = "Teleport Location 1",
+    Sandbox_Teleporter_TeleportLocation1_tooltip = "Opposite corners of a rectangle defined as coordinates with the following format: X1-Y1-Z1@X2-Y2-Z2. TP destination will be randomized within these bounds!",
+
+    Sandbox_Teleporter_TeleportLocation2Name = "Location 2 Display Name",
+    Sandbox_Teleporter_TeleportLocation2 = "Teleport Location 2",
+    Sandbox_Teleporter_TeleportLocation2_tooltip = "Opposite corners of a rectangle defined as coordinates with the following format: X1-Y1-Z1@X2-Y2-Z2. TP destination will be randomized within these bounds!",
+
+    Sandbox_Teleporter_TeleportLocation3Name = "Location 3 Display Name",
+    Sandbox_Teleporter_TeleportLocation3 = "Teleport Location 3",
+    Sandbox_Teleporter_TeleportLocation3_tooltip = "Opposite corners of a rectangle defined as coordinates with the following format: X1-Y1-Z1@X2-Y2-Z2. TP destination will be randomized within these bounds!",
+
+
+    Sandbox_Teleporter_TeleportItems = "Teleport Items",
+    Sandbox_Teleporter_TeleportItems_tooltip = "Items that will be given to the player on teleport. Usage: Base.Hammer;Base.Screwdriver",
+}
