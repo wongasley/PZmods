@@ -1,0 +1,4 @@
+IGUI_CN = {
+    IGUI_AntiCheatWorking = "反作弊系统:玩家 %s 可能在作弊，请联系管理员",
+	IGUI_AntiCheatWorking2 = "反作弊系统:玩家 %s 作弊，已被踢出服务器",
+}

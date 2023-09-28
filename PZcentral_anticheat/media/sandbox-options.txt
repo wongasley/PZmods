@@ -1,0 +1,138 @@
+VERSION = 1,
+
+option AnTi.AdminName
+{
+    type = string,
+    default = admin,
+    page = AnTiCheatServer,
+    translation = AdminName,
+}
+
+
+
+option AnTi.EnAbleBrushToolProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleBrushToolProtect,
+}
+
+option AnTi.EnAbleItemListProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleItemListProtect,
+}
+
+option AnTi.EnAbleCheatMenutProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleCheatMenutProtect,
+}
+
+
+
+option AnTi.EnAblePlayerMenuProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAblePlayerMenuProtect,
+}
+
+
+option AnTi.KickWarnPlayer
+{
+    type = boolean,
+    default = false,
+    page = AnTiCheatServer,
+    translation = KickWarnPlayer,
+}
+
+
+
+
+option AnTi.EnAbleGodModProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleGodModProtect,
+}
+
+option AnTi.EnAbleGhostModProtect
+{
+    type = boolean,
+    default = false,
+    page = AnTiCheatServer,
+    translation = EnAbleGhostModProtect,
+}
+
+option AnTi.EnAbleInfiniteModProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleInfiniteModProtect,
+}
+
+
+option AnTi.EnAbleBuildProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleBuildProtect,
+}
+
+option AnTi.EnAbleInfiniteCarryProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleBuildProtect,
+}
+
+option AnTi.EnAbleUnlimitedEnduranceProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleUnlimitedEnduranceProtect,
+}
+
+option AnTi.EnAbleNoClipProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleNoClipProtect,
+}
+option AnTi.EnAbleFastMoveProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleFastMoveProtect,
+}
+
+option AnTi.EnAbleHealthCheatProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleHealthCheatProtect,
+}
+
+option AnTi.EnAbleMechanicsCheatProtect
+{
+    type = boolean,
+    default = true,
+    page = AnTiCheatServer,
+    translation = EnAbleMechanicsCheatProtect,
+}
+

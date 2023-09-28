@@ -1,0 +1,42 @@
+Sandbox_CN = {
+     Sandbox_AnTiCheatServer = "服务器反作弊系统v1.1",
+     Sandbox_AdminName = "管理员人员名单",
+     Sandbox_AdminName_tooltip = "输入管理员的名字，用;隔开,非管理员但拥有管理权限的玩家会被直接踢出到桌面",
+     Sandbox_KickWarnPlayer = "踢出被警告的玩家",
+     Sandbox_KickWarnPlayer_tooltip = "踢出被因为以下内容而被警告的玩家",
+     Sandbox_EnAbleGodModProtect= "启用上帝模式检测",
+     Sandbox_EnAbleGodModProtect_tooltip = "启用后权限不为Admin的玩家会被警告,启用此项可能会导致模组无敌时间导致警告",
+     Sandbox_EnAbleGhostModProtect = "启用幽灵模式检测",
+     Sandbox_EnAbleGhostModProtect_tooltip = "启用后权限不为Admin的玩家会被警告,启用此项可能会导致模组无敌时间导致警告",
+
+     Sandbox_EnAbleInfiniteModProtect = "启用无限弹药模式检测",
+     Sandbox_EnAbleInfiniteModProtect_tooltip = "启用后权限不为Admin的玩家会被警告",
+
+     Sandbox_EnAbleBuildProtect = "启用建造模式检测",
+     Sandbox_EnAbleBuildProtect_tooltip = "启用后权限不为Admin的玩家会被警告",
+
+     Sandbox_EnAbleInfiniteCarryProtect= "启用无限负重模式检测",
+     Sandbox_EnAbleInfiniteCarryProtect_tooltip = "启用后权限不为Admin的玩家会被警告",
+
+     Sandbox_EnAbleUnlimitedEnduranceProtect = "启用无限耐力模式检测",
+     Sandbox_EnAbleUnlimitedEnduranceProtect_tooltip = "启用后权限不为Admin的玩家会被警告",
+
+     Sandbox_EnAbleNoClipProtect = "启用穿墙模式检测",
+     Sandbox_EnAbleNoClipProtect_tooltip = "启用后权限不为Admin的玩家会被警告",
+
+     Sandbox_EnAbleFastMoveProtect = "启用快速移动模式检测",
+
+     Sandbox_EnAbleHealthCheatProtect = "启用健康面板作弊检测",
+
+     Sandbox_EnAbleMechanicsCheatProtect= "启用技工面板作弊检测",
+
+     Sandbox_EnAbleBrushToolProtect = "启用笔刷作弊检测",
+
+     Sandbox_EnAbleItemListProtect = "启用物品列表作弊检测",
+
+     Sandbox_EnAbleCheatMenutProtect = "启用管理员面板作弊检测",
+
+     Sandbox_EnAblePlayerMenuProtect= "启用玩家面板作弊检测",
+
+
+}

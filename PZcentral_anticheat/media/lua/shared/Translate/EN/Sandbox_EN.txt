@@ -1,0 +1,14 @@
+Sandbox_CN = {
+     Sandbox_Cav = "Cav Settings",
+     Sandbox_DestoryHouse = "Whether the vehicle destroys the house",
+     Sandbox_DestorySafeHouse= "Whether the vehicle destroys the safe house",
+     Sandbox_TreeAffectShove = "Trees are a durable effect on shoves",
+     Sandbox_ZombieAffectShove = "Zombies have a durable effect on cart shove",
+     Sandbox_SpawnCavInWorld = "Whether to spawn Cav in the world",
+     Sandbox_MainGunCreateAsh = "Whether the main gun creates ash",
+     Sandbox_DropCavAblity = "Airdrop marker drop probability (0-100)",
+     Sandbox_DropCavCount = "Maximum number of airdrop ammo drops (1-100) x 5",
+     Sandbox_EnAbleServerSynsCav = "Turret Server Synchronization (If the turret rotation freezes, please close it)",
+     Sandbox_EnAbleServerSynsCav_tooltip = "Others on the server will not see your turret spinning",
+     Sandbox_EnAbleTurretSound = "Enable Turret Sound",
+}
